@@ -141,5 +141,3 @@ Used for scoring vendor quotations.
 ``` bash 
 OPENAI_API_KEY=your_openai_key
 ```
-
----# AI-Powered_RFP_Management_System

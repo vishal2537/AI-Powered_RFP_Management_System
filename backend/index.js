@@ -28,22 +28,7 @@ app.use(errorMiddleware);
 
 app.listen(PORT, () => {
   console.log(
-    "Server running of port " + PORT
-      // PORT +
-      // console.log("Environment Variables:", {
-      //   PORT: process.env.PORT,
-      //   MONGODB_URL: process.env.MONGODB_URL
-      //     ? process.env.MONGODB_URL
-      //     : "Not Defined",
-      //   OPEN_API_KEY: process.env.OPENAI_API_KEY
-      //     ? process.env.OPENAI_API_KEY
-      //     : "Not Defined",
-      //   MAIL_USER: process.env.MAIL_USER
-      //     ? process.env.MAIL_USER
-      //     : "Not Defined",
-      //   MAIL_PASSWORD: process.env.MAIL_PASSWORD
-      //     ? process.env.MAIL_PASSWORD
-      //     : "Not Defined",
-      // })
+    "Server running on port " + PORT
   );
 });
+  
